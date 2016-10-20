@@ -32,7 +32,7 @@ public class LamdaExp {
 		printList(studentList);
 		
 		studentList.forEach(n->System.out.println(n.toString()));
-		
+		System.out.println("================");
 		System.out.println("Output student whose roll no empty");
 		List<Student> emptyRollNoStudentList=studentList.stream().filter(x->!x.getRollNo().isEmpty()).collect(Collectors.toList());
 		
