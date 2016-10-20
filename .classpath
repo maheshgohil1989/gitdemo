@@ -3,10 +3,5 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8"/>
 	<classpathentry kind="lib" path="src/joda-time-2.7.jar"/>
-	<classpathentry kind="lib" path="src/poi-3.9-20121203.jar"/>
-	<classpathentry kind="lib" path="src/poi-ooxml-3.9-20121203.jar"/>
-	<classpathentry kind="lib" path="src/poi-ooxml-schemas-3.9-20121203.jar"/>
-	<classpathentry kind="lib" path="xmlbeans-2.3.0.jar"/>
-	<classpathentry kind="lib" path="dom4j-1.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
