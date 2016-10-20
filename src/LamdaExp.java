@@ -26,12 +26,14 @@ public class LamdaExp {
 		Collections.sort(studentList,salaryComparator);
 		printList(studentList);*/
 		
+		System.out.println("Output all student");
+		
 		Collections.sort(studentList,(o1,o2) -> o1.getName().compareTo(o2.getName()));
 		//printList(studentList);
 		
-		//studentList.forEach(n->System.out.println(n.toString()));
+		studentList.forEach(n->System.out.println(n.toString()));
 		
-		
+		System.out.println("Output student whose roll no empty");
 		List<Student> emptyRollNoStudentList=studentList.stream().filter(x->!x.getRollNo().isEmpty()).collect(Collectors.toList());
 		
 		emptyRollNoStudentList.forEach(System.out::println);
