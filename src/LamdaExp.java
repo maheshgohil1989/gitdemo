@@ -43,9 +43,9 @@ public class LamdaExp {
 	public static List<Student> getPerson(){
 		List<Student> studentList=new ArrayList<>();
 		studentList.add(new Student("mahesh","A001",27));
-		studentList.add(new Student("daksha","",21));
-		studentList.add(new Student("reena","A003",23));
-		studentList.add(new Student("sonu","",19));
+		studentList.add(new Student("suresh","",21));
+		studentList.add(new Student("sid","A003",23));
+		studentList.add(new Student("akhil","",19));
 		return studentList;
 	}
 	
