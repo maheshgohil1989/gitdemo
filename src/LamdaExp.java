@@ -29,7 +29,7 @@ public class LamdaExp {
 		System.out.println("Output all student");
 		
 		Collections.sort(studentList,(o1,o2) -> o1.getName().compareTo(o2.getName()));
-		//printList(studentList);
+		printList(studentList);
 		
 		studentList.forEach(n->System.out.println(n.toString()));
 		
